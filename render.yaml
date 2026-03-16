@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: finance-api
+    env: python
+    buildCommand: ""
+    startCommand: python api.py
